@@ -22,7 +22,7 @@ import {
   Editor,
 } from "./pages";
 
-import { useStateContext } from "./contexts/ContectProvider";
+import { useStateContext } from "./contexts/ContextProvider";
 
 import "./App.css";
 
