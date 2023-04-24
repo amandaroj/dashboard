@@ -22,10 +22,12 @@ import {
   Editor,
 } from "./pages";
 
+import { useStateContext } from "./contexts/ContectProvider";
+
 import "./App.css";
 
 const App = () => {
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
   return (
     <div>
       <BrowserRouter>
